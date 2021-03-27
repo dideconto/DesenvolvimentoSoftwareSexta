@@ -1,10 +1,13 @@
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Principal {
 	
+	//Falta o conteúdo de Construtor
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		Cliente cliente = new Cliente();
+		ArrayList<Cliente> clientes = new ArrayList<Cliente>();
 		
 		int opcao;		
 		do {
@@ -19,11 +22,12 @@ public class Principal {
 				System.out.println("\n-- CADASTRAR DO CLIENTE --\n");
 				System.out.println("\nDigite o nome do cliente");
 				cliente.setNome(sc.next());
-				System.out.println("Nome: " + cliente.getNome());
-//				cpf = sc.next();
+				clientes.add(cliente);
+				System.out.println("Cliente cadastrado com sucesso!!!");
 				break;
 			case 2:			
-				System.out.println("\n-- LISTAR CLIENTES --\n");		
+				System.out.println("\n-- LISTAR CLIENTES --\n");	
+				System.out.println(clientes);
 				break;
 			case 0:		
 				System.out.println("\nSaindo...");			
