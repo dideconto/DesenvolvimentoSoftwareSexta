@@ -5,13 +5,15 @@ public class Principal {
 	
 	public static void main(String[] args) {
 		
-		jogo = new JogoEletronico();
-		jogo.setTitulo("Qualquer jogo");
+		System.out.println("Digite o título do jogo: ");
+		String titulo = "CS";
+		
+		jogo = new JogoEletronico(titulo);
+//		jogo.setTitulo(titulo);
 		System.out.println(jogo);
 		
-		jogo = new JogoEletronico();
-		System.out.println(jogo);
-		
+//		jogo = new JogoEletronico();
+//		System.out.println(jogo);		
 				
 //		JogoEletronico jogo1 = new JogoEletronico();
 //		jogo1.setTitulo("CS");
@@ -37,6 +39,20 @@ public class Principal {
 	}
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
