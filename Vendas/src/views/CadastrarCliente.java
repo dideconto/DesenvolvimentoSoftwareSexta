@@ -13,7 +13,7 @@ public class CadastrarCliente {
 	public static void renderizar() {
 		System.out.println("\n".repeat(15));
 		cliente = new Cliente();
-		System.out.println("\n-- CADASTRAR DO CLIENTE --\n");
+		System.out.println("\n-- CADASTRAR CLIENTE --\n");
 		System.out.println("\nDigite o nome do cliente:");
 		cliente.setNome(sc.next());
 		System.out.println("\nDigite o CPF do cliente:");

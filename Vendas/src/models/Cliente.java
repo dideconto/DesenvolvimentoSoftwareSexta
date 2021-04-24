@@ -35,7 +35,7 @@ public class Cliente {
 	
 	@Override
 	public String toString() {
-		return "Nome: " + getNome() + " | CPF: " + getCpf();
+		return "Nome: " + getNome() + " | CPF: " + getCpf() + " | Criado em: " + getCriadoEm();
 	}
 	
 }
