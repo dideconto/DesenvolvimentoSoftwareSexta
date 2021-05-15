@@ -9,7 +9,11 @@
     <fullyQualifiedTypeName name="JogoEletronico"/>
     <fullyQualifiedTypeName name="views.ListarClientes"/>
     <fullyQualifiedTypeName name="views.CadastrarCliente"/>
-    <fullyQualifiedTypeName name="controllers.ClienteController"/>
     <fullyQualifiedTypeName name="java.util.Date"/>
+    <fullyQualifiedTypeName name="controllers.ClienteController"/>
+    <fullyQualifiedTypeName name="controllers.VendedorController"/>
+    <fullyQualifiedTypeName name="controllers.VendaController"/>
+    <fullyQualifiedTypeName name="controllers.ProdutoController"/>
+    <fullyQualifiedTypeName name="models.Produto"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
 </qualifiedTypeNameHistroy>
