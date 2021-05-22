@@ -3,10 +3,9 @@ package views;
 import java.util.Scanner;
 
 public class Principal {
-
+	private static Scanner sc = new Scanner(System.in);
 	public static void main(String[] args) {
 //		Menu.renderizar();
-		Scanner sc = new Scanner(System.in);
 		int opcao;		
 		do {
 			System.out.println("\n-- PROJETO DE VENDAS --\n");
@@ -15,8 +14,7 @@ public class Principal {
 			System.out.println("3 - Consultar folha de pagamento");
 			System.out.println("4 - Consultar histórico de folhas de pagamento do mês");
 			System.out.println("0 - Sair");
-			System.out.println("\nDigite a opção desejada:");
-			opcao = sc.nextInt();
+			opcao = lerInteiro("\nDigite a opção desejada:");
 			switch (opcao) {
 			case 1:
 				CadastrarFuncionario.renderizar();
@@ -40,5 +38,17 @@ public class Principal {
 		} while (opcao != 0);		
 		sc.close();
 	}
-
 }
+
+
+
+
+
+
+
+
+
+
+
+
+

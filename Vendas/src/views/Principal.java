@@ -1,13 +1,11 @@
 package views;
-import java.util.ArrayList;
 import java.util.Scanner;
 
-import models.Cliente;
+import utils.Console;
 
 public class Principal {
 
 	public static void main(String[] args) {
-//		Menu.renderizar();
 		Scanner sc = new Scanner(System.in);
 		int opcao;		
 		do {
@@ -20,8 +18,7 @@ public class Principal {
 			System.out.println("6 - Listar produtos");
 			System.out.println("7 - Cadastrar venda");
 			System.out.println("0 - Sair");
-			System.out.println("\nDigite a opção desejada:");
-			opcao = sc.nextInt();
+			opcao = Console.lerInteiro("\nDigite a opção desejada:");
 			switch (opcao) {
 			case 1:
 				CadastrarCliente.renderizar();

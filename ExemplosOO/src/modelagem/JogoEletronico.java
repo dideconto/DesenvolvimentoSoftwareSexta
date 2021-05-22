@@ -1,3 +1,4 @@
+package modelagem;
 import java.util.Date;
 
 public class JogoEletronico {
